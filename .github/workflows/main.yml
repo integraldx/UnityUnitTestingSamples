@@ -32,4 +32,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      - uses: integraldx/UnityLinter@v0.1.0
+      - uses: integraldx/UnityLinter
