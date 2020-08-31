@@ -33,3 +33,6 @@ jobs:
           echo test, and deploy your project.
           
       - uses: integraldx/UnityLinter@master
+        with:
+          version: 2019.4.8f1
+          platform: linux-il2cpp
