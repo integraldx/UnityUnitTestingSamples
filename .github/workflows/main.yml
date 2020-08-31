@@ -41,4 +41,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: unity-test-result
-          path: $GITHUB_WORKSPACE/testResults.xml
+          path: ${{ github.workspace }}/testResults.xml
