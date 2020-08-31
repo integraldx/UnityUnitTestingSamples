@@ -32,7 +32,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      - uses: integraldx/UnityLinter@featur/UnityInstall
+      - uses: integraldx/UnityLinter@feature/UnityInstall
         with:
           version: 2019.4.8f1
           platform: linux-il2cpp
