@@ -36,3 +36,9 @@ jobs:
         with:
           version: 2019.4.8f1
           platform: linux-il2cpp
+
+      - name: Archive test results
+        uses: actions/upload-artifact@v2
+        with:
+          name: unity-test-result
+          path: testResults.xml
