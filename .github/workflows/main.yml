@@ -42,3 +42,9 @@ jobs:
         with:
           name: unity-test-result
           path: ${{ github.workspace }}/testResults.xml
+
+      - name: Archive editor logs
+        uses: actions/upload-artifact@v2
+        with:
+          name: unity-editor-logs
+          path: ${{ github.workspace }}/Editor.log
