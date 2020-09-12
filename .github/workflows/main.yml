@@ -28,6 +28,8 @@ jobs:
           platform: linux-il2cpp
           projectPath: ${{ github.workspace }}
           serial: ${{ secrets.UNITY_SERIAL }}
+          username: ${{ secrets.UNITY_USER_ID }}
+          password: ${{ secrets.UNITY_USER_PASWORD }}
 
       - name: Archive test results
         uses: actions/upload-artifact@v2
