@@ -26,10 +26,10 @@ jobs:
         with:
           version: 2019.4.8f1
           platform: linux-il2cpp
-          projectPath: ${{ github.workspace }}
+          projectPath: ${{ github.workspace }}/UnityUnitTestingSamples
           serial: ${{ secrets.UNITY_SERIAL }}
           username: ${{ secrets.UNITY_USER_ID }}
-          password: ${{ secrets.UNITY_USER_PASWORD }}
+          password: ${{ secrets.UNITY_USER_PASSWORD }}
 
       - name: Archive test results
         uses: actions/upload-artifact@v2
